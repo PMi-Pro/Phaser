@@ -1,0 +1,6 @@
+===== Build dự án bằng Vite =====
+- Cài Vite toàn cục để build cho tất cả dự án khác: npm install -g vite   
+- Cấu trúc: index.html nằm ở root, có thư mục src/main.js, thư mục public chưa các assets của game    
+- Thay đổi biến "devAssetsPath" của GameManager (main.js) thành "" để build vì Vite tự động load assets từ thư mục public    
+- Mở terminal ở thư mục gốc
+- Build: vite build, xuất ra thư mục dist (production)

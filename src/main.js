@@ -1,0 +1,1 @@
+import "./projects/test1/game.js";

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phaser ES</title>
+
+  <style>
+    body {
+      margin: 0px;
+      overflow: hidden;
+      background-color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 id="fps" style="position: absolute; left: 10px; top: -10px; color: white;">0 Fps</h3>
+
+  <script type="importmap">
+      {
+        "imports": {
+          "phaser": "/src/libs/phaser.esm.min.js"
+        }
+      }
+    </script>
+
+  <script src="/src/main.js" type="module"></script>
+</body>
+
+</html>
