@@ -1,3 +1,6 @@
 {
-  "include": ["src/**/*.js", "src/libs/phaser.d.ts"]
+  "include": [
+    "src/**/*.js",
+    "src/libs/phaser.d.ts"
+  ]
 }
