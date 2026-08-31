@@ -41,3 +41,5 @@ const config = {
 
 ///// START \\\\\
 new Game(config);
+
+// Fix v2 nè
