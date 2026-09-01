@@ -57,14 +57,6 @@ const Pool = {
   }
 };
 
-/*const utils = {
-  controls: {
-    left: false,
-    right: false,
-    jump: false
-  }
-};*/
-
 
 
 ///// ===== SCENE ===== \\\\\
